@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Login-Form css start */
+.login{
+    width: 100%;
+    height: 622px;
+    padding-top: 120px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)),url(../image/background1.jpg);
+    background-size: cover; 
+}
+.login .box{
+    width: 410px;
+    height: 380px;
+    background: #fff;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 0px  4px 4px #f6efef;
+}
+.login .box .top img{
+   padding-top: 30px;
+   padding-left: 40%;
+}
+.login .box .top h4{
+    padding-left: 41%;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login .box .top p{
+    color:#54585d;
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login .box .middel{
+    padding: 30px;
+    background: #F9FAFB;
+    position: relative;
+    border-top: 1px solid #eeeff1;
+}
+.login .box .middel label{
+    color:#54585d;
+    font-size: 11px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login .box .middel input{
+    border: 1px solid #dcdee0;
+}
+.login .box .middel form{
+    padding-left: 30px;
+}
+.login .box .middel input:focus{
+    border: 1px solid #302c2c;
+}
+.login .box .middel input, button{
+    width: 90%;
+    margin-bottom: 10px;
+    height: 33px;
+    border-radius: 5px;
+}
+.login .box .middel button{
+    background: #302c2c;
+    color: #fff; ;
+}
+.login .box .middel button:hover{
+    background: #fff;
+    color: #302c2c;
+    border: 1px solid #302c2c;
+    transition: all 0.4s;
+}
+.login .box .bottom{
+    padding-left: 60px;
+    padding-right: 15px;
+}
+.login .box .bottom button{
+    width: 85%;
+    background: #fff;
+    font-size: 13px;
+    line-height: 32px;
+    border: 1px solid #dcdee0;
+}
+.login .box .bottom button:hover{
+    border: 1px solid #5F0A8E;
+    transition: all 0.2s;
+}
+.login .box .bottom img{
+    width: 18px;
+    height: 20px;
+    padding-top: 5px;
+}
+/* /Login-Form css end */
+
+/* Media Queries start */
+@media only screen and (max-width: 600px) {
+    .login{
+        padding: 120px 30px;
+    }
+    .login .box{
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .login .box .bottom{
+        padding-bottom: 10px;
+    }
+  }
+/* /Media Queries end */
